@@ -1,0 +1,23 @@
+{
+  "name": "frontend-project-44",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Komplexee/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Komplexee/frontend-project-44/actions)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komplexee/frontend-project-44.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Komplexee/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/Komplexee/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
