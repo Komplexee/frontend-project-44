@@ -8,7 +8,7 @@ const findGCD = (num1, num2) => {
 };
 
 const playGCDGame = () => {
-    console.log('Welcome to the Brain Games!');
+    console.log("Welcome to the Brain Games!");
     const name = readlineSync.question('May I have your name? ');
     console.log(`Hello, ${name}!`);
     console.log('Find the greatest common divisor of given numbers.');
