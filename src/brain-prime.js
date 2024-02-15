@@ -19,7 +19,6 @@ const playPrimeGame = () => {
     console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
     const rounds = 3;
-    let correctAnswers = 0;
 
     for (let i = 0; i < rounds; i++) {
         const number = Math.floor(Math.random() * 100) + 1;
@@ -32,7 +31,6 @@ const playPrimeGame = () => {
 
         if (userAnswer === correctAnswer) {
             console.log('Correct!');
-            correctAnswers += 1;
         } else {
             console.log(`Wrong answer ;(. Correct answer was '${correctAnswer}'.`);
             console.log(`Let's try again, ${name}!`);

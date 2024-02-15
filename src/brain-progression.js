@@ -30,7 +30,6 @@ const playProgressionGame = () => {
     console.log('What number is missing in the progression?');
 
     const rounds = 3;
-    let correctAnswers = 0;
 
     for (let i = 0; i < rounds; i++) {
         const { progression, hiddenElement } = generateProgression(10);
@@ -40,7 +39,6 @@ const playProgressionGame = () => {
 
         if (parseInt(userAnswer, 10) === hiddenElement) {
             console.log('Correct!');
-            correctAnswers += 1;
         } else {
             console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${hiddenElement}'.`);
             console.log(`Let's try again, ${name}!`);

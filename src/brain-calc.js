@@ -32,7 +32,6 @@ const playCalcGame = () => {
     console.log('What is the result of the expression?');
 
     const rounds = 3;
-    let correctAnswers = 0;
 
     for (let i = 0; i < rounds; i++) {
         const expression = generateExpression();
@@ -43,7 +42,6 @@ const playCalcGame = () => {
 
         if (parseInt(userAnswer, 10) === correctAnswer) {
             console.log('Correct!');
-            correctAnswers += 1;
         } else {
             console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
             console.log(`Let's try again, ${name}!`);
